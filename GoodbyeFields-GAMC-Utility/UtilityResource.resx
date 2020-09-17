@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Authenticate</value>
+  </data>
+  <data name="BaseURL" xml:space="preserve">
+    <value>http://localhost:44359/ReturnURL?guid=</value>
+  </data>
+  <data name="CheckBalanceMessage" xml:space="preserve">
+    <value>GetBalance Service called to check balance with request parameter, PlayerId </value>
+  </data>
+  <data name="CheckPlayerExistence" xml:space="preserve">
+    <value>CheckPlayerExistence</value>
+  </data>
+  <data name="CheckPlayerExistenceSP" xml:space="preserve">
+    <value>USP_CheckPlayerExistence</value>
+  </data>
+  <data name="CheckTransactionStatus" xml:space="preserve">
+    <value>CheckTransactionStatus</value>
+  </data>
+  <data name="CheckTransactionStatusSP" xml:space="preserve">
+    <value>USP_VoidTransactionStatus</value>
+  </data>
+  <data name="DateErrorMessage" xml:space="preserve">
+    <value>TransactionFromDate can not be greater then TransactionToDate </value>
+  </data>
+  <data name="Deposit" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="DepositSP" xml:space="preserve">
+    <value>USP_WalletDeposit</value>
+  </data>
+  <data name="ErrorInMethod" xml:space="preserve">
+    <value>Error in {MethodName} method, Error : {ErrorMessage} </value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExecutedSuccessfully" xml:space="preserve">
+    <value>{MethodName} method executed successfully. </value>
+  </data>
+  <data name="ExecutePayment" xml:space="preserve">
+    <value>ExecutePayment</value>
+  </data>
+  <data name="GenerateJwtToken" xml:space="preserve">
+    <value>GenerateJwtToken</value>
+  </data>
+  <data name="GetBalance" xml:space="preserve">
+    <value>GetBalance</value>
+  </data>
+  <data name="GetBalanceMessage" xml:space="preserve">
+    <value>Balance of a player </value>
+  </data>
+  <data name="GetBalanceSP" xml:space="preserve">
+    <value>USP_GetBalance</value>
+  </data>
+  <data name="HomeControllerReturnURL" xml:space="preserve">
+    <value>https://localhost:44359/Home/SuccesReturn?ID=</value>
+  </data>
+  <data name="HomePayPalAction" xml:space="preserve">
+    <value>http://dbprod/GoodbyeFields-API/PaymentWithPaypal</value>
+  </data>
+  <data name="InsufficientBalance" xml:space="preserve">
+    <value>Insufficient Balance in wallet </value>
+  </data>
+  <data name="InvalidData" xml:space="preserve">
+    <value>Invalid Data</value>
+  </data>
+  <data name="LogServiceStartMessage" xml:space="preserve">
+    <value>{MethodName} service starts with request parameters : {RequestParameter} </value>
+  </data>
+  <data name="LogStartMessage" xml:space="preserve">
+    <value>{MethodName} method starts with request parameters : {RequestParameter} </value>
+  </data>
+  <data name="PayPalBaseURL" xml:space="preserve">
+    <value>http://dbprod/GoodbyeFields-API/ReturnURL?guid=</value>
+  </data>
+  <data name="PayPalCancel" xml:space="preserve">
+    <value>http://dbprod/GoodbyeFields-GAMC/Home/Cancel</value>
+  </data>
+  <data name="PayPalFailed" xml:space="preserve">
+    <value>http://dbprod/GoodbyeFields-GAMC/Home/Failed?Failure_reason=</value>
+  </data>
+  <data name="PayPalSuccess" xml:space="preserve">
+    <value>http://dbprod/GoodbyeFields-GAMC/Home/SuccesReturn?ID=</value>
+  </data>
+  <data name="PlayerIdError" xml:space="preserve">
+    <value>Invalid value in PlayerId parameter </value>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>USP_GetPlayerList</value>
+  </data>
+  <data name="PlayerNotExist" xml:space="preserve">
+    <value>Player does not exist.</value>
+  </data>
+  <data name="ReturnToCancel" xml:space="preserve">
+    <value>ReturnToCancel</value>
+  </data>
+  <data name="ReturnURL" xml:space="preserve">
+    <value>ReturnURL</value>
+  </data>
+  <data name="ReturnURLstart" xml:space="preserve">
+    <value>ReturnURLstart</value>
+  </data>
+  <data name="SavePaypalResonseService" xml:space="preserve">
+    <value>SavePaypalResonse</value>
+  </data>
+  <data name="SavePaypalResonseSP" xml:space="preserve">
+    <value>USP_SavePaypalResponse</value>
+  </data>
+  <data name="SavePayPalResponse" xml:space="preserve">
+    <value>SavePayPalResponse</value>
+  </data>
+  <data name="ServiceExecutedSuccessfully" xml:space="preserve">
+    <value>{MethodName} Service executed successfully. </value>
+  </data>
+  <data name="SPExecutionEnd" xml:space="preserve">
+    <value>Stored procedure {SPName} end </value>
+  </data>
+  <data name="SPExecutionStart" xml:space="preserve">
+    <value>Stored procedure {SPName} start </value>
+  </data>
+  <data name="SuccessMessage" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="TransactionAlreadyVoid" xml:space="preserve">
+    <value>Transaction Already Void</value>
+  </data>
+  <data name="TransactionAmountError" xml:space="preserve">
+    <value>Invalid value in TransactionAmount parameter </value>
+  </data>
+  <data name="TransactionCodeError" xml:space="preserve">
+    <value>Invalid value in TransactionCode parameter </value>
+  </data>
+  <data name="TransactionFromDateError" xml:space="preserve">
+    <value>Invalid value in TransactionFromDate parameter </value>
+  </data>
+  <data name="TransactionHistory" xml:space="preserve">
+    <value>TransactionHistory</value>
+  </data>
+  <data name="TransactionHistorySP" xml:space="preserve">
+    <value>USP_GetPlayerTransactionHistory</value>
+  </data>
+  <data name="TransactionIdError" xml:space="preserve">
+    <value>Invalid value in TransactionId parameter </value>
+  </data>
+  <data name="TransactionMessage" xml:space="preserve">
+    <value>Transaction Completed Successfully. </value>
+  </data>
+  <data name="TransactionNotFound" xml:space="preserve">
+    <value>Transaction Not Found</value>
+  </data>
+  <data name="TransactionToDateError" xml:space="preserve">
+    <value>Invalid value in TransactionToDate parameter </value>
+  </data>
+  <data name="TrasactionHistoryMessage" xml:space="preserve">
+    <value>Transaction history of a player </value>
+  </data>
+  <data name="VoidTransaction" xml:space="preserve">
+    <value>VoidTransaction</value>
+  </data>
+  <data name="VoidTransactionMessage" xml:space="preserve">
+    <value>Transaction void successfully </value>
+  </data>
+  <data name="VoidTransactionSP" xml:space="preserve">
+    <value>USP_VoidATransaction</value>
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>Withdrawal</value>
+  </data>
+  <data name="WithdrawalSP" xml:space="preserve">
+    <value>USP_WalletWithdrawal</value>
+  </data>
+</root>

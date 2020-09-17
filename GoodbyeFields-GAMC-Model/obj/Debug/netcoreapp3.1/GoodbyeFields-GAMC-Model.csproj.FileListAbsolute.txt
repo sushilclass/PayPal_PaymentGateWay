@@ -1,0 +1,9 @@
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.deps.json
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.dll
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.pdb
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.AssemblyInfoInputs.cache
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.AssemblyInfo.cs
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.csproj.CoreCompileInputs.cache
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.dll
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.pdb
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-Model\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-Model.csprojAssemblyReference.cache

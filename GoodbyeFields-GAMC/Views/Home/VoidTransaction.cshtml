@@ -1,0 +1,29 @@
+﻿@model GoodbyeFields_GAMC_Model.TransactionModel;
+
+<form method="post" enctype="multipart/form-data">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label">Transaction Id </label>
+                <input asp-for="TransactionId" class="form-control" >
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label">Void Description </label>
+                <input asp-for="VoidDescription" class="form-control" >
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mt_25">
+            <div class="form-group">
+                <button type="submit" class="btn btn-info mr-2">Ok</button>
+            </div>
+        </div>
+    </div>
+</form>

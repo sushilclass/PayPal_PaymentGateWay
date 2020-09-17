@@ -1,0 +1,446 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-WalletLibrary\\GoodbyeFields-GAMC-WalletLibrary.csproj": {}
+  },
+  "projects": {
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj",
+        "projectName": "GoodbyeFields-GAMC-BL",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EnterpriseLibrary.Data.NetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "PayPal": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj",
+        "projectName": "GoodbyeFields-GAMC-DataLayer",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EnterpriseLibrary.Data.NetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20364.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj",
+        "projectName": "GoodbyeFields-GAMC-LogManager",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.2-dev-10281, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj",
+        "projectName": "GoodbyeFields-GAMC-Model",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj",
+        "projectName": "GoodbyeFields-GAMC-Utility",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Braintree": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-WalletLibrary\\GoodbyeFields-GAMC-WalletLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-WalletLibrary\\GoodbyeFields-GAMC-WalletLibrary.csproj",
+        "projectName": "GoodbyeFields-GAMC-WalletLibrary",
+        "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-WalletLibrary\\GoodbyeFields-GAMC-WalletLibrary.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-WalletLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj"
+              },
+              "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj": {
+                "projectPath": "E:\\GoodbyeFields-GAMC\\Project\\GoodbyeFields-GAMC\\GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

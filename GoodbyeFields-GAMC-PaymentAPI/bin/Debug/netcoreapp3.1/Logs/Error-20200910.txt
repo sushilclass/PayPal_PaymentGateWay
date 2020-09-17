@@ -1,0 +1,32 @@
+2020-09-10T22:10:41.2014874+05:30 80000239-0004-fc00-b63f-84710c7967bb [ERR] paymentId cannot be null or empty (Parameter 'paymentId') (418aff9e)
+System.ArgumentNullException: paymentId cannot be null or empty (Parameter 'paymentId')
+   at PayPal.Util.ArgumentValidator.Validate(Object argument, String argumentName)
+   at PayPal.Api.Payment.Execute(APIContext apiContext, String paymentId, PaymentExecution paymentExecution)
+   at PayPal.Api.Payment.Execute(APIContext apiContext, PaymentExecution paymentExecution)
+   at GoodbyeFields_GAMC_BL.PayPalService.ExecutePayment(String payerId, String paymentId) in E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-BL\PayPalService.cs:line 36
+2020-09-10T22:10:45.7501482+05:30 80000239-0004-fc00-b63f-84710c7967bb [ERR] Value cannot be null. (Parameter 's') (31a70c5f)
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at GoodbyeFields_GAMC_PaymentAPI.Controllers.PlayerController.ReturnURL() in E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-PaymentAPI\Controllers\PlayerController.cs:line 86
+2020-09-10T22:10:46.3150804+05:30 80000239-0004-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Invalid control character in header: 0x0D
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ValidateHeaderCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ValidateHeaderCharacters(StringValues headerValues)
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.Redirect(String location, Boolean permanent)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor.ExecuteAsync(ActionContext context, RedirectResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at GoodbyeFields_GAMC_PaymentAPI.Helpers.JwtMiddleware.Invoke(HttpContext context, IPlayerService userService) in E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-PaymentAPI\Helpers\JwtMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

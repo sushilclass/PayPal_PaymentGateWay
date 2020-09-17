@@ -1,0 +1,27 @@
+﻿@model GoodbyeFields_GAMC_Model.Transaction;
+@{
+    ViewData["Title"] = "Payment";
+}
+
+
+
+<form method="post" asp-controller="Home" asp-action="PayAction">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label"> Transaction Amount</label>
+                <input asp-for="TransactionAmount" class="form-control" maxlength="50" min="0">
+                <span asp-validation-for="TransactionAmount" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info mr-2">Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

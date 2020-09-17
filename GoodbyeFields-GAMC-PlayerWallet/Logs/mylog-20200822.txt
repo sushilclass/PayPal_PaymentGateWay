@@ -1,0 +1,5 @@
+2020-08-22T13:46:17.5380588+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-22T13:46:17.5876662+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-22T13:46:17.5896117+05:30  [INF] Content root path: "D:\GoodByeFields\GoodbyeFields-GAMC\GoodbyeFields-GAMC-PlayerWallet" (b5d60022)
+2020-08-22T13:46:31.1412172+05:30 80000029-0002-f900-b63f-84710c7967bb [INF] Log message in the Deposit() method with request parameterGoodbyeFields_GAMC_Model.TransactionModel (d4f8efa6)
+2020-08-22T13:46:31.7791578+05:30 80000029-0002-f900-b63f-84710c7967bb [WRN] No type was specified for the decimal column '"TransactionAmount"' on entity type '"Transaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()' or specify a ValueConverter. (f6720919)

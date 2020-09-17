@@ -1,0 +1,42 @@
+﻿@model IEnumerable<GoodbyeFields_GAMC_Model.Transaction>
+
+@if (Model != null)
+{
+    <div style="width:1000px; height:500px; overflow:auto;">
+        <table style="height:500px; overflow:scroll;">
+            <thead>
+                <tr>
+                    <td>TransactionId </td>
+                    <td>TransactionTypeId </td>
+                    <td>TransactionAmount </td>
+                    <td>PlayerId </td>
+                    <td>TransactionDescription </td>
+                    <td>TransactionCode </td>
+                    <td>TransactionStatus </td>
+                    <td>TransactionTime </td>
+                    <td>IsVoid </td>
+                    <td>VoidDate </td>
+                    <td>VoidDescription </td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var m in Model)
+                {
+                    <tr>
+                        <td>@m.TransactionId </td>
+                        <td>@m.TransactionTypeId </td>
+                        <td>@m.TransactionAmount </td>
+                        <td>@m.PlayerId </td>
+                        <td>@m.TransactionDescription </td>
+                        <td>@m.TransactionCode </td>
+                        <td>@m.TransactionStatus </td>
+                        <td>@m.TransactionTime </td>
+                        <td>@m.IsVoid </td>
+                        <td>@m.VoidDate </td>
+                        <td>@m.VoidDescription </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

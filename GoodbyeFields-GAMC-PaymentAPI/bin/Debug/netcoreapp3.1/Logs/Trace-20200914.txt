@@ -1,0 +1,3 @@
+2020-09-14T15:46:28.5253425+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-09-14T15:46:28.5546086+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-09-14T15:46:28.5567562+05:30  [INF] Content root path: "E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-PaymentAPI" (b5d60022)

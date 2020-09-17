@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC", "GoodbyeFields-GAMC\GoodbyeFields-GAMC.csproj", "{3A798C88-7FE3-4C6D-8397-E9B843535C31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-PaymentAPI", "GoodbyeFields-GAMC-PaymentAPI\GoodbyeFields-GAMC-PaymentAPI.csproj", "{7FBD06C5-38B3-4B64-B56C-9646C4AEB110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-BL", "GoodbyeFields-GAMC-BL\GoodbyeFields-GAMC-BL.csproj", "{E4518066-3AA9-4C0B-804B-5D0017013334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-Model", "GoodbyeFields-GAMC-Model\GoodbyeFields-GAMC-Model.csproj", "{A3FCC472-A61E-42EB-97C7-E677F75EAE7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-Utility", "GoodbyeFields-GAMC-Utility\GoodbyeFields-GAMC-Utility.csproj", "{3BE9432B-1108-410F-820D-2B3918F03E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-LogManager", "GoodbyeFields-GAMC-LogManager\GoodbyeFields-GAMC-LogManager.csproj", "{083D1712-4712-4F0D-AE42-ECBA4D382AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-DataLayer", "GoodbyeFields-GAMC-DataLayer\GoodbyeFields-GAMC-DataLayer.csproj", "{A0A3BFC8-1C71-435A-BB08-EA73CBA8CE1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodbyeFields-GAMC-WalletLibrary", "GoodbyeFields-GAMC-WalletLibrary\GoodbyeFields-GAMC-WalletLibrary.csproj", "{6E064255-8D53-41B1-8B4B-72E92F5714D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A798C88-7FE3-4C6D-8397-E9B843535C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A798C88-7FE3-4C6D-8397-E9B843535C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A798C88-7FE3-4C6D-8397-E9B843535C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A798C88-7FE3-4C6D-8397-E9B843535C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBD06C5-38B3-4B64-B56C-9646C4AEB110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBD06C5-38B3-4B64-B56C-9646C4AEB110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBD06C5-38B3-4B64-B56C-9646C4AEB110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBD06C5-38B3-4B64-B56C-9646C4AEB110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4518066-3AA9-4C0B-804B-5D0017013334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4518066-3AA9-4C0B-804B-5D0017013334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4518066-3AA9-4C0B-804B-5D0017013334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4518066-3AA9-4C0B-804B-5D0017013334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FCC472-A61E-42EB-97C7-E677F75EAE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FCC472-A61E-42EB-97C7-E677F75EAE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FCC472-A61E-42EB-97C7-E677F75EAE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FCC472-A61E-42EB-97C7-E677F75EAE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE9432B-1108-410F-820D-2B3918F03E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE9432B-1108-410F-820D-2B3918F03E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE9432B-1108-410F-820D-2B3918F03E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE9432B-1108-410F-820D-2B3918F03E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083D1712-4712-4F0D-AE42-ECBA4D382AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083D1712-4712-4F0D-AE42-ECBA4D382AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083D1712-4712-4F0D-AE42-ECBA4D382AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083D1712-4712-4F0D-AE42-ECBA4D382AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A3BFC8-1C71-435A-BB08-EA73CBA8CE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A3BFC8-1C71-435A-BB08-EA73CBA8CE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A3BFC8-1C71-435A-BB08-EA73CBA8CE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A3BFC8-1C71-435A-BB08-EA73CBA8CE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E064255-8D53-41B1-8B4B-72E92F5714D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E064255-8D53-41B1-8B4B-72E92F5714D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E064255-8D53-41B1-8B4B-72E92F5714D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E064255-8D53-41B1-8B4B-72E92F5714D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C68A153-0497-46A1-AFBE-14C701D5C333}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs01:8080/tfs/chetuprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GoodbyeFields-GAMC-BL\\GoodbyeFields-GAMC-BL.csproj
+		SccProjectName1 = GoodbyeFields-GAMC-BL
+		SccLocalPath1 = GoodbyeFields-GAMC-BL
+		SccProjectUniqueName2 = GoodbyeFields-GAMC-DataLayer\\GoodbyeFields-GAMC-DataLayer.csproj
+		SccProjectName2 = GoodbyeFields-GAMC-DataLayer
+		SccLocalPath2 = GoodbyeFields-GAMC-DataLayer
+		SccProjectUniqueName3 = GoodbyeFields-GAMC-LogManager\\GoodbyeFields-GAMC-LogManager.csproj
+		SccProjectName3 = GoodbyeFields-GAMC-LogManager
+		SccLocalPath3 = GoodbyeFields-GAMC-LogManager
+		SccProjectUniqueName4 = GoodbyeFields-GAMC-Model\\GoodbyeFields-GAMC-Model.csproj
+		SccProjectName4 = GoodbyeFields-GAMC-Model
+		SccLocalPath4 = GoodbyeFields-GAMC-Model
+		SccProjectUniqueName5 = GoodbyeFields-GAMC-PaymentAPI\\GoodbyeFields-GAMC-PaymentAPI.csproj
+		SccProjectName5 = GoodbyeFields-GAMC-PaymentAPI
+		SccLocalPath5 = GoodbyeFields-GAMC-PaymentAPI
+		SccProjectUniqueName6 = GoodbyeFields-GAMC-Utility\\GoodbyeFields-GAMC-Utility.csproj
+		SccProjectName6 = GoodbyeFields-GAMC-Utility
+		SccLocalPath6 = GoodbyeFields-GAMC-Utility
+		SccProjectUniqueName7 = GoodbyeFields-GAMC\\GoodbyeFields-GAMC.csproj
+		SccProjectName7 = GoodbyeFields-GAMC
+		SccLocalPath7 = GoodbyeFields-GAMC
+		SccProjectUniqueName8 = GoodbyeFields-GAMC-WalletLibrary\\GoodbyeFields-GAMC-WalletLibrary.csproj
+		SccProjectName8 = GoodbyeFields-GAMC-WalletLibrary
+		SccLocalPath8 = GoodbyeFields-GAMC-WalletLibrary
+	EndGlobalSection
+EndGlobal

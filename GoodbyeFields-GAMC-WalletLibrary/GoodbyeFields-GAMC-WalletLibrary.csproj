@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>GoodbyeFields_GAMC_WalletLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoodbyeFields-GAMC-BL\GoodbyeFields-GAMC-BL.csproj" />
+    <ProjectReference Include="..\GoodbyeFields-GAMC-LogManager\GoodbyeFields-GAMC-LogManager.csproj" />
+    <ProjectReference Include="..\GoodbyeFields-GAMC-Model\GoodbyeFields-GAMC-Model.csproj" />
+    <ProjectReference Include="..\GoodbyeFields-GAMC-Utility\GoodbyeFields-GAMC-Utility.csproj" />
+  </ItemGroup>
+
+</Project>

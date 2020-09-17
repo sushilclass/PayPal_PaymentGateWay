@@ -1,0 +1,9 @@
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.deps.json
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.dll
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\bin\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.pdb
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.AssemblyInfoInputs.cache
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.AssemblyInfo.cs
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.csproj.CoreCompileInputs.cache
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.dll
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.pdb
+E:\GoodbyeFields-GAMC\Project\GoodbyeFields-GAMC\GoodbyeFields-GAMC-LogManager\obj\Debug\netcoreapp3.1\GoodbyeFields-GAMC-LogManager.csprojAssemblyReference.cache
